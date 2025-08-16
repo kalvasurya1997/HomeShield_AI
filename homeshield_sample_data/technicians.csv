@@ -1,0 +1,1001 @@
+technician_id,vendor,specialty,rating,coverage_states
+T00001,BlueSky Plumbing,HVAC,4.39,"ID,OK"
+T00002,VoltGuard Electrical,HVAC,3.54,"IL,MO,AZ"
+T00003,HomePro Repairs,HVAC,3.7,WY
+T00004,HeatWave HVAC,Appliances,4.82,"MS,CA"
+T00005,HomePro Repairs,Plumbing,4.18,SC
+T00006,HomePro Repairs,HVAC,4.02,"RI,ID"
+T00007,HomePro Repairs,Plumbing,4.17,"OK,ID,ME"
+T00008,ApplianceFix,Electrical,3.59,"MS,WA"
+T00009,BrightSpark Electric,Appliances,4.83,"UT,MA"
+T00010,HeatWave HVAC,Plumbing,4.43,"NE,NJ,TN"
+T00011,ApplianceFix,Plumbing,3.87,"SC,RI,MA"
+T00012,VoltGuard Electrical,Electrical,4.21,"OH,GA"
+T00013,BrightSpark Electric,Appliances,4.62,"HI,OR"
+T00014,AC Masters,Electrical,3.48,"ID,NM,MO"
+T00015,BlueSky Plumbing,Appliances,3.21,"ID,WA"
+T00016,BlueSky Plumbing,Appliances,4.43,"NY,FL,IL"
+T00017,HomePro Repairs,Plumbing,3.36,LA
+T00018,AC Masters,Electrical,3.63,WA
+T00019,AC Masters,Appliances,4.23,"MI,NC"
+T00020,ApplianceFix,Appliances,4.13,"VA,WI,NC"
+T00021,HomePro Repairs,Plumbing,4.7,"VT,NM"
+T00022,HeatWave HVAC,Appliances,4.0,"NY,MN,SC"
+T00023,Pipe Pros,Electrical,4.32,DE
+T00024,AC Masters,Electrical,4.34,"WY,SC,AK"
+T00025,BlueSky Plumbing,HVAC,3.28,"WI,AL,AK"
+T00026,ApplianceFix,Plumbing,3.43,"AL,LA"
+T00027,VoltGuard Electrical,HVAC,4.0,"PA,NC,NY"
+T00028,BlueSky Plumbing,Electrical,3.95,"OH,DE,OK"
+T00029,BlueSky Plumbing,Electrical,3.9,"NY,MO"
+T00030,HeatWave HVAC,Plumbing,3.4,"WA,MO,NJ"
+T00031,HeatWave HVAC,Appliances,3.99,"IN,AZ,CO"
+T00032,AC Masters,Appliances,4.74,RI
+T00033,BrightSpark Electric,Electrical,3.41,"MN,CO"
+T00034,Pipe Pros,Appliances,4.47,"CA,ID"
+T00035,BlueSky Plumbing,HVAC,3.62,"NC,NV,DE"
+T00036,BlueSky Plumbing,Electrical,3.25,"WI,ID"
+T00037,Pipe Pros,Appliances,4.94,"NE,MI,HI"
+T00038,HeatWave HVAC,Appliances,3.42,"IA,CT"
+T00039,VoltGuard Electrical,Appliances,4.97,AK
+T00040,BlueSky Plumbing,HVAC,3.48,"ND,OR"
+T00041,ApplianceFix,Plumbing,3.54,"ND,IN,FL"
+T00042,HomePro Repairs,HVAC,4.35,NE
+T00043,ApplianceFix,HVAC,4.44,"PA,AL,CT"
+T00044,BrightSpark Electric,HVAC,3.3,"KY,IA,CA"
+T00045,ApplianceFix,Electrical,4.55,"OR,TX,SD"
+T00046,AC Masters,Plumbing,4.24,"NM,CO"
+T00047,VoltGuard Electrical,HVAC,4.23,"WI,HI,VT"
+T00048,BlueSky Plumbing,Appliances,4.03,"MS,GA,ND"
+T00049,Pipe Pros,Electrical,4.64,ME
+T00050,BlueSky Plumbing,HVAC,4.07,"AZ,WA"
+T00051,HeatWave HVAC,Plumbing,4.85,"OH,NY"
+T00052,BlueSky Plumbing,Plumbing,3.91,HI
+T00053,BrightSpark Electric,HVAC,4.28,"CA,NJ"
+T00054,ApplianceFix,Appliances,4.06,"TX,TN,NV"
+T00055,HeatWave HVAC,Plumbing,3.83,VA
+T00056,ApplianceFix,Plumbing,3.27,"RI,MD"
+T00057,HeatWave HVAC,Appliances,4.36,"OR,DE,KS"
+T00058,BlueSky Plumbing,Plumbing,4.4,CA
+T00059,ApplianceFix,HVAC,3.7,"DE,CO,VT"
+T00060,ApplianceFix,HVAC,3.83,"WV,NY"
+T00061,HeatWave HVAC,Appliances,3.58,"AZ,CA"
+T00062,AC Masters,Plumbing,3.41,"WA,NH"
+T00063,ApplianceFix,Appliances,3.36,NV
+T00064,VoltGuard Electrical,HVAC,4.21,"KS,CA"
+T00065,ApplianceFix,HVAC,4.62,"IN,ND"
+T00066,BlueSky Plumbing,Plumbing,4.29,"NV,KS"
+T00067,Pipe Pros,Electrical,4.24,"ID,VT,HI"
+T00068,ApplianceFix,Appliances,4.59,VT
+T00069,ApplianceFix,Appliances,4.04,"OR,MO"
+T00070,BrightSpark Electric,HVAC,4.37,"TN,NH,MS"
+T00071,HeatWave HVAC,Appliances,3.81,"IA,FL,CO"
+T00072,ApplianceFix,Electrical,4.65,"MN,MO"
+T00073,BlueSky Plumbing,Appliances,4.24,"MI,NJ,AZ"
+T00074,VoltGuard Electrical,Appliances,3.51,GA
+T00075,HeatWave HVAC,Electrical,4.06,"WA,KS"
+T00076,AC Masters,HVAC,4.94,NE
+T00077,AC Masters,Electrical,3.9,"LA,ID"
+T00078,VoltGuard Electrical,Electrical,3.45,NV
+T00079,VoltGuard Electrical,HVAC,3.48,"OH,SC,AK"
+T00080,BrightSpark Electric,HVAC,4.35,WI
+T00081,Pipe Pros,Appliances,4.41,"UT,NY"
+T00082,AC Masters,Plumbing,3.89,"OH,CT"
+T00083,VoltGuard Electrical,Electrical,3.92,WI
+T00084,ApplianceFix,Appliances,4.52,NC
+T00085,AC Masters,HVAC,4.46,"SC,CT"
+T00086,HomePro Repairs,HVAC,4.98,"MS,VT"
+T00087,AC Masters,Electrical,4.23,"KY,MN,IA"
+T00088,AC Masters,Plumbing,4.41,"NH,GA"
+T00089,BlueSky Plumbing,HVAC,4.01,MS
+T00090,ApplianceFix,Electrical,4.04,"WI,UT"
+T00091,ApplianceFix,Plumbing,3.44,"WA,WI,MT"
+T00092,ApplianceFix,Electrical,3.58,"OK,ME"
+T00093,BlueSky Plumbing,Plumbing,3.63,"ID,PA"
+T00094,VoltGuard Electrical,Appliances,4.11,"ND,NC"
+T00095,VoltGuard Electrical,HVAC,3.91,MS
+T00096,Pipe Pros,Electrical,4.32,RI
+T00097,VoltGuard Electrical,Plumbing,4.67,ID
+T00098,HeatWave HVAC,Plumbing,4.76,"IA,MN"
+T00099,AC Masters,Appliances,3.81,"NV,NC"
+T00100,AC Masters,HVAC,4.34,"ME,WA,NJ"
+T00101,HeatWave HVAC,HVAC,4.3,"UT,RI,KS"
+T00102,HomePro Repairs,Electrical,3.68,NJ
+T00103,ApplianceFix,HVAC,3.81,"CA,KS,NC"
+T00104,VoltGuard Electrical,Plumbing,3.8,WY
+T00105,Pipe Pros,HVAC,4.49,SC
+T00106,Pipe Pros,Electrical,4.87,ME
+T00107,VoltGuard Electrical,Appliances,4.63,"NH,KS,AK"
+T00108,BlueSky Plumbing,HVAC,4.87,"SD,MI"
+T00109,Pipe Pros,Appliances,3.9,NY
+T00110,HeatWave HVAC,Plumbing,3.65,NH
+T00111,BlueSky Plumbing,Electrical,3.35,"KS,IN,NH"
+T00112,HomePro Repairs,Electrical,3.85,AL
+T00113,AC Masters,Electrical,4.77,NE
+T00114,AC Masters,HVAC,4.89,"PA,CA,KY"
+T00115,VoltGuard Electrical,Appliances,4.48,"MO,IL,SD"
+T00116,HomePro Repairs,HVAC,3.59,"WA,SD"
+T00117,BrightSpark Electric,Electrical,4.08,NM
+T00118,ApplianceFix,Electrical,4.64,AL
+T00119,Pipe Pros,HVAC,4.56,"OK,PA,TN"
+T00120,BrightSpark Electric,HVAC,4.83,"AZ,RI"
+T00121,ApplianceFix,Electrical,3.87,CO
+T00122,Pipe Pros,Plumbing,4.91,"IN,MA,WV"
+T00123,HomePro Repairs,Appliances,4.32,WI
+T00124,VoltGuard Electrical,Plumbing,4.32,"TN,MS"
+T00125,HeatWave HVAC,Electrical,3.49,"NJ,CO,OK"
+T00126,HeatWave HVAC,HVAC,4.91,LA
+T00127,BrightSpark Electric,Plumbing,4.75,IA
+T00128,AC Masters,HVAC,4.9,GA
+T00129,BlueSky Plumbing,Electrical,3.51,ID
+T00130,HeatWave HVAC,HVAC,4.48,"MS,NJ,AR"
+T00131,Pipe Pros,HVAC,4.34,"MS,LA,NJ"
+T00132,Pipe Pros,Electrical,4.46,"NM,LA,MN"
+T00133,AC Masters,Plumbing,3.77,CT
+T00134,Pipe Pros,Appliances,4.3,OH
+T00135,HeatWave HVAC,HVAC,3.71,"IN,MD"
+T00136,BrightSpark Electric,Plumbing,4.21,"ID,LA"
+T00137,BrightSpark Electric,Plumbing,3.32,"CO,DE,MI"
+T00138,BrightSpark Electric,Plumbing,3.73,NE
+T00139,HeatWave HVAC,HVAC,4.27,"TX,MD"
+T00140,HeatWave HVAC,Appliances,3.77,"HI,WI,CO"
+T00141,ApplianceFix,Electrical,4.36,"AR,CT,OH"
+T00142,VoltGuard Electrical,Electrical,3.98,"LA,WI,PA"
+T00143,HeatWave HVAC,HVAC,4.07,"MD,OK,WI"
+T00144,ApplianceFix,HVAC,4.67,"NH,MS,SC"
+T00145,ApplianceFix,Appliances,4.6,"VA,CA"
+T00146,HeatWave HVAC,HVAC,4.6,"ME,ND,AZ"
+T00147,VoltGuard Electrical,Appliances,3.96,OK
+T00148,AC Masters,Plumbing,4.35,"WY,NY,WV"
+T00149,AC Masters,HVAC,3.35,"GA,AZ"
+T00150,Pipe Pros,HVAC,4.94,"AL,IA,TX"
+T00151,VoltGuard Electrical,Plumbing,4.79,"HI,NV,CT"
+T00152,BlueSky Plumbing,Appliances,4.28,MA
+T00153,AC Masters,Appliances,3.91,"WY,MA,ME"
+T00154,Pipe Pros,Appliances,4.35,"MD,TN"
+T00155,HeatWave HVAC,Electrical,4.66,IA
+T00156,BrightSpark Electric,Electrical,3.37,"TN,MI"
+T00157,HeatWave HVAC,Plumbing,4.68,"CA,MI,ID"
+T00158,BrightSpark Electric,Appliances,4.3,"NY,RI,MA"
+T00159,AC Masters,Electrical,3.77,FL
+T00160,HomePro Repairs,HVAC,4.25,"WI,MI"
+T00161,BrightSpark Electric,Plumbing,4.73,"AL,MT"
+T00162,HomePro Repairs,Electrical,4.76,"IN,ID,NE"
+T00163,Pipe Pros,Plumbing,3.55,"PA,MN"
+T00164,Pipe Pros,HVAC,3.34,"MT,KY"
+T00165,VoltGuard Electrical,Electrical,4.64,"DE,NM"
+T00166,HomePro Repairs,Electrical,4.86,NV
+T00167,BlueSky Plumbing,Plumbing,3.35,MS
+T00168,Pipe Pros,Electrical,3.81,"NE,GA,MN"
+T00169,BrightSpark Electric,Plumbing,3.99,"AK,MD,AZ"
+T00170,VoltGuard Electrical,HVAC,4.34,"GA,AZ,SD"
+T00171,HomePro Repairs,Electrical,3.66,"IA,PA,NY"
+T00172,HeatWave HVAC,Electrical,3.92,CT
+T00173,Pipe Pros,Electrical,4.49,"ID,IL"
+T00174,VoltGuard Electrical,Appliances,3.29,"VA,AR,SD"
+T00175,HomePro Repairs,Appliances,4.73,"AL,MD"
+T00176,BrightSpark Electric,Appliances,4.62,AR
+T00177,HeatWave HVAC,Electrical,3.6,"AL,MA"
+T00178,VoltGuard Electrical,Appliances,4.44,"MS,RI,OH"
+T00179,HomePro Repairs,Electrical,3.37,IN
+T00180,AC Masters,Electrical,4.24,"IA,MS"
+T00181,Pipe Pros,Plumbing,3.94,"WI,NC"
+T00182,VoltGuard Electrical,Plumbing,3.87,MN
+T00183,VoltGuard Electrical,Appliances,3.37,"MS,CT,NC"
+T00184,AC Masters,Electrical,3.9,IL
+T00185,Pipe Pros,Electrical,4.63,"AZ,UT"
+T00186,VoltGuard Electrical,HVAC,4.42,"MI,WI,GA"
+T00187,Pipe Pros,HVAC,3.94,UT
+T00188,HomePro Repairs,Plumbing,3.42,"OH,AZ"
+T00189,BrightSpark Electric,HVAC,4.61,"KS,RI"
+T00190,ApplianceFix,HVAC,3.33,"KS,ID"
+T00191,HomePro Repairs,Plumbing,4.21,"IN,WI,IA"
+T00192,HomePro Repairs,Plumbing,4.35,NY
+T00193,HomePro Repairs,Appliances,4.05,"MI,SC"
+T00194,BrightSpark Electric,Plumbing,3.26,ME
+T00195,ApplianceFix,HVAC,4.16,"WA,MT,TN"
+T00196,BrightSpark Electric,Electrical,4.79,"IA,OH,CO"
+T00197,VoltGuard Electrical,Appliances,4.02,"MS,IA"
+T00198,Pipe Pros,Plumbing,3.21,"NH,IN"
+T00199,HeatWave HVAC,Appliances,4.59,NE
+T00200,ApplianceFix,HVAC,4.04,"HI,MD,WA"
+T00201,Pipe Pros,Plumbing,4.42,WV
+T00202,HomePro Repairs,Appliances,3.75,WI
+T00203,Pipe Pros,Electrical,3.3,"IN,MT"
+T00204,Pipe Pros,Plumbing,4.82,IN
+T00205,BrightSpark Electric,Plumbing,4.85,"CO,UT"
+T00206,BrightSpark Electric,Electrical,3.5,PA
+T00207,HomePro Repairs,Electrical,4.54,"VA,PA,UT"
+T00208,ApplianceFix,Plumbing,4.35,CA
+T00209,ApplianceFix,Appliances,3.71,NJ
+T00210,Pipe Pros,HVAC,4.46,WI
+T00211,VoltGuard Electrical,Electrical,4.45,LA
+T00212,HeatWave HVAC,Electrical,4.19,"NH,LA,MI"
+T00213,BlueSky Plumbing,Plumbing,3.47,"NY,TX,MO"
+T00214,HeatWave HVAC,Appliances,4.06,"NH,GA,IN"
+T00215,ApplianceFix,Plumbing,3.39,"AZ,CA"
+T00216,BrightSpark Electric,HVAC,3.49,"CA,CT"
+T00217,HeatWave HVAC,Plumbing,4.78,"OR,MA,ND"
+T00218,HeatWave HVAC,Electrical,3.54,"AK,AL,OH"
+T00219,ApplianceFix,HVAC,4.03,"MA,DE,AL"
+T00220,BrightSpark Electric,Plumbing,4.74,"MO,IL"
+T00221,BlueSky Plumbing,Electrical,3.83,MS
+T00222,AC Masters,Appliances,3.87,"MN,AL,NV"
+T00223,Pipe Pros,HVAC,4.0,MS
+T00224,AC Masters,Plumbing,3.71,"AZ,HI"
+T00225,AC Masters,Electrical,4.52,NM
+T00226,Pipe Pros,Appliances,4.76,NJ
+T00227,VoltGuard Electrical,HVAC,3.65,"VT,SD"
+T00228,AC Masters,Electrical,3.76,"OH,MN"
+T00229,BrightSpark Electric,Plumbing,4.58,"AR,KS,KY"
+T00230,HeatWave HVAC,HVAC,4.83,"WV,ID"
+T00231,HeatWave HVAC,Electrical,4.33,MA
+T00232,BlueSky Plumbing,HVAC,3.77,"DE,TX"
+T00233,AC Masters,Electrical,4.68,"CA,MN"
+T00234,ApplianceFix,Electrical,4.4,FL
+T00235,ApplianceFix,Electrical,4.22,NV
+T00236,AC Masters,Appliances,4.56,"KS,NM"
+T00237,AC Masters,Appliances,4.1,HI
+T00238,AC Masters,Electrical,4.6,"MN,NV"
+T00239,VoltGuard Electrical,Appliances,4.41,MD
+T00240,BrightSpark Electric,Appliances,3.86,"ME,NH"
+T00241,HomePro Repairs,Electrical,4.64,"HI,ID"
+T00242,VoltGuard Electrical,Electrical,4.44,DE
+T00243,BlueSky Plumbing,Plumbing,3.68,"ND,MS,WY"
+T00244,ApplianceFix,Electrical,4.36,"DE,MT,CA"
+T00245,HomePro Repairs,Appliances,3.89,CO
+T00246,ApplianceFix,Electrical,4.26,"LA,SC"
+T00247,ApplianceFix,HVAC,4.59,"HI,VT"
+T00248,HeatWave HVAC,HVAC,4.79,NH
+T00249,HeatWave HVAC,Electrical,3.46,"PA,LA"
+T00250,HomePro Repairs,Appliances,4.82,"AZ,AK"
+T00251,HeatWave HVAC,Electrical,3.89,"NH,CT"
+T00252,BlueSky Plumbing,HVAC,4.96,"HI,ME,WV"
+T00253,BrightSpark Electric,HVAC,3.76,"NV,LA"
+T00254,Pipe Pros,Appliances,4.76,"CO,NC,WV"
+T00255,HomePro Repairs,Plumbing,4.96,"NJ,SD"
+T00256,BrightSpark Electric,Electrical,3.58,AR
+T00257,VoltGuard Electrical,Plumbing,4.85,WV
+T00258,HomePro Repairs,HVAC,3.95,"IN,WV,TN"
+T00259,BlueSky Plumbing,Electrical,3.24,"MO,MN"
+T00260,AC Masters,Electrical,3.54,"ID,IL,WI"
+T00261,VoltGuard Electrical,HVAC,4.23,"LA,MA"
+T00262,HomePro Repairs,Electrical,4.9,"TX,WA"
+T00263,HomePro Repairs,Electrical,4.23,IL
+T00264,BrightSpark Electric,Electrical,3.26,NY
+T00265,ApplianceFix,HVAC,4.54,"NJ,ME,MI"
+T00266,BrightSpark Electric,HVAC,3.22,WI
+T00267,AC Masters,Electrical,3.89,WI
+T00268,HeatWave HVAC,Electrical,4.55,WV
+T00269,BrightSpark Electric,Electrical,3.26,"RI,IL,TN"
+T00270,Pipe Pros,Electrical,3.23,"OH,MA,HI"
+T00271,HeatWave HVAC,Appliances,3.83,SD
+T00272,HeatWave HVAC,Plumbing,4.12,NE
+T00273,Pipe Pros,Appliances,3.57,"WY,NH"
+T00274,BrightSpark Electric,HVAC,4.14,"NM,MN,IN"
+T00275,ApplianceFix,HVAC,3.94,NJ
+T00276,VoltGuard Electrical,Appliances,3.57,"SD,ME,KS"
+T00277,HomePro Repairs,Appliances,4.03,"ID,LA,MS"
+T00278,Pipe Pros,Appliances,4.76,"KS,IN,ME"
+T00279,AC Masters,Appliances,4.72,"PA,OK"
+T00280,HomePro Repairs,HVAC,3.47,IL
+T00281,Pipe Pros,Plumbing,4.16,"KS,MD"
+T00282,Pipe Pros,HVAC,3.23,MI
+T00283,HomePro Repairs,Plumbing,4.01,RI
+T00284,VoltGuard Electrical,HVAC,3.28,"NY,OR"
+T00285,VoltGuard Electrical,Appliances,3.67,"AR,TN"
+T00286,Pipe Pros,Plumbing,4.49,"NH,OR,MN"
+T00287,HomePro Repairs,HVAC,4.81,"WV,MT"
+T00288,VoltGuard Electrical,HVAC,3.78,ID
+T00289,HeatWave HVAC,Plumbing,3.42,CA
+T00290,ApplianceFix,Plumbing,3.8,"NH,NY"
+T00291,ApplianceFix,Appliances,4.16,KS
+T00292,AC Masters,Appliances,3.9,CA
+T00293,ApplianceFix,Electrical,4.38,"TN,CT,IL"
+T00294,AC Masters,HVAC,3.32,"KY,CT"
+T00295,VoltGuard Electrical,Appliances,3.77,"LA,CO,NJ"
+T00296,BlueSky Plumbing,Electrical,4.65,"MO,NY"
+T00297,AC Masters,Appliances,4.49,"PA,WI,OK"
+T00298,AC Masters,HVAC,4.61,"NY,RI"
+T00299,BlueSky Plumbing,Electrical,4.4,"ID,TX"
+T00300,VoltGuard Electrical,Appliances,4.32,"HI,NH,TX"
+T00301,VoltGuard Electrical,Electrical,3.46,"SD,MT,NC"
+T00302,BrightSpark Electric,Electrical,3.71,"OK,CT"
+T00303,BrightSpark Electric,Appliances,3.53,"SC,NJ"
+T00304,BrightSpark Electric,Electrical,4.52,AL
+T00305,Pipe Pros,Plumbing,3.86,"AL,FL,GA"
+T00306,AC Masters,Plumbing,3.28,"DE,MN,LA"
+T00307,BlueSky Plumbing,Plumbing,4.44,"WV,KY"
+T00308,Pipe Pros,Appliances,4.31,"NY,WV,RI"
+T00309,HeatWave HVAC,Appliances,3.49,"WA,MI"
+T00310,AC Masters,Appliances,4.51,VA
+T00311,Pipe Pros,HVAC,3.56,"NY,WY"
+T00312,AC Masters,Plumbing,4.19,DE
+T00313,AC Masters,HVAC,4.49,AL
+T00314,VoltGuard Electrical,Appliances,4.59,"TX,SD,ME"
+T00315,ApplianceFix,Appliances,3.7,CO
+T00316,HeatWave HVAC,Plumbing,3.87,"CO,ME"
+T00317,Pipe Pros,Plumbing,3.21,ID
+T00318,VoltGuard Electrical,HVAC,3.72,"HI,NV"
+T00319,HomePro Repairs,Electrical,4.33,OK
+T00320,HomePro Repairs,Plumbing,3.81,TN
+T00321,Pipe Pros,Appliances,3.39,"ME,NC,MA"
+T00322,HomePro Repairs,Electrical,3.36,"ME,LA"
+T00323,BrightSpark Electric,Appliances,4.81,"HI,MI,WI"
+T00324,BlueSky Plumbing,Electrical,3.61,"TX,RI"
+T00325,ApplianceFix,Appliances,4.74,TX
+T00326,BrightSpark Electric,Appliances,3.35,UT
+T00327,BlueSky Plumbing,Plumbing,3.79,NM
+T00328,BrightSpark Electric,HVAC,3.42,SC
+T00329,AC Masters,Plumbing,4.11,"CT,MI"
+T00330,Pipe Pros,Appliances,4.25,PA
+T00331,HeatWave HVAC,HVAC,4.27,"WI,SD"
+T00332,HeatWave HVAC,Appliances,4.78,AR
+T00333,ApplianceFix,HVAC,3.62,"WI,MI"
+T00334,VoltGuard Electrical,Electrical,4.69,LA
+T00335,Pipe Pros,Electrical,3.66,"KS,PA"
+T00336,Pipe Pros,Electrical,4.24,"SC,RI"
+T00337,HeatWave HVAC,Plumbing,3.88,"GA,MN"
+T00338,HomePro Repairs,Plumbing,4.01,"WV,OR,PA"
+T00339,BlueSky Plumbing,Electrical,4.59,MD
+T00340,BrightSpark Electric,Electrical,4.2,IA
+T00341,HeatWave HVAC,Electrical,4.89,"MO,DE,WA"
+T00342,ApplianceFix,Appliances,4.77,"MA,ND,MD"
+T00343,Pipe Pros,Appliances,4.45,"SD,OK,MA"
+T00344,BlueSky Plumbing,Plumbing,4.55,"IA,UT,MD"
+T00345,VoltGuard Electrical,Plumbing,4.12,"NE,AR"
+T00346,AC Masters,Plumbing,3.48,UT
+T00347,HomePro Repairs,HVAC,4.06,WI
+T00348,VoltGuard Electrical,Plumbing,3.6,WY
+T00349,BrightSpark Electric,HVAC,4.37,"KY,IN,OH"
+T00350,BrightSpark Electric,HVAC,3.4,"ID,MI"
+T00351,BrightSpark Electric,HVAC,4.52,ND
+T00352,HomePro Repairs,Electrical,4.81,"AL,NJ"
+T00353,HeatWave HVAC,Electrical,4.29,"PA,ID"
+T00354,HomePro Repairs,Appliances,3.93,WY
+T00355,ApplianceFix,Electrical,4.27,WV
+T00356,Pipe Pros,HVAC,3.92,"MS,NH,OR"
+T00357,Pipe Pros,Plumbing,4.64,"IN,ND,ID"
+T00358,BlueSky Plumbing,Electrical,4.13,"OH,NY"
+T00359,HomePro Repairs,Plumbing,4.38,"NC,CT"
+T00360,BlueSky Plumbing,Appliances,3.72,"HI,WA"
+T00361,BrightSpark Electric,Appliances,3.28,IN
+T00362,ApplianceFix,Appliances,3.35,"MD,HI,MT"
+T00363,BlueSky Plumbing,HVAC,3.46,"MI,VA,KS"
+T00364,Pipe Pros,Appliances,3.26,"WA,PA,NH"
+T00365,HeatWave HVAC,Plumbing,3.4,"MT,NE"
+T00366,ApplianceFix,HVAC,4.72,AK
+T00367,BrightSpark Electric,Plumbing,4.72,"NY,OH"
+T00368,Pipe Pros,Plumbing,3.31,"AR,SC,MT"
+T00369,ApplianceFix,Electrical,4.24,AR
+T00370,VoltGuard Electrical,Electrical,3.51,DE
+T00371,Pipe Pros,Electrical,3.24,"HI,OK"
+T00372,VoltGuard Electrical,Plumbing,3.33,"GA,MI"
+T00373,ApplianceFix,HVAC,4.56,"ME,MI"
+T00374,HeatWave HVAC,Electrical,4.21,GA
+T00375,ApplianceFix,Appliances,3.98,"OH,UT"
+T00376,VoltGuard Electrical,Appliances,4.54,"MO,CO,MN"
+T00377,VoltGuard Electrical,Plumbing,4.56,CA
+T00378,HeatWave HVAC,Appliances,3.67,"IN,CT"
+T00379,HeatWave HVAC,Plumbing,4.22,IL
+T00380,HeatWave HVAC,Electrical,4.5,"AR,PA"
+T00381,BlueSky Plumbing,Plumbing,4.57,"WY,LA,VA"
+T00382,BrightSpark Electric,Plumbing,4.14,WV
+T00383,HeatWave HVAC,Appliances,4.19,"PA,IN"
+T00384,ApplianceFix,HVAC,3.77,"MS,NE,OK"
+T00385,AC Masters,Electrical,3.49,"WY,MI,GA"
+T00386,ApplianceFix,HVAC,3.74,AR
+T00387,AC Masters,Electrical,3.45,WA
+T00388,HomePro Repairs,Electrical,3.95,DE
+T00389,ApplianceFix,HVAC,3.94,"TX,KS,TN"
+T00390,BrightSpark Electric,HVAC,4.51,"GA,IL"
+T00391,BrightSpark Electric,Appliances,3.94,WA
+T00392,Pipe Pros,Appliances,3.55,"ME,WI,OK"
+T00393,BrightSpark Electric,HVAC,3.89,"MT,OH"
+T00394,AC Masters,Plumbing,3.52,GA
+T00395,HeatWave HVAC,HVAC,4.02,"CT,AL,VT"
+T00396,HomePro Repairs,Plumbing,3.87,IL
+T00397,BrightSpark Electric,HVAC,3.86,"IA,TX"
+T00398,ApplianceFix,Appliances,3.94,ND
+T00399,HomePro Repairs,Electrical,4.56,GA
+T00400,AC Masters,Plumbing,4.72,"NE,ID"
+T00401,BlueSky Plumbing,HVAC,4.44,"AL,WY,MA"
+T00402,HeatWave HVAC,HVAC,4.92,"VT,KS"
+T00403,HomePro Repairs,Appliances,4.12,MO
+T00404,BrightSpark Electric,HVAC,3.97,NY
+T00405,HomePro Repairs,Plumbing,4.76,IA
+T00406,HomePro Repairs,HVAC,4.48,"WI,MS,IL"
+T00407,BrightSpark Electric,Electrical,4.2,"MD,AZ"
+T00408,BlueSky Plumbing,Electrical,3.56,"MT,NH,ME"
+T00409,Pipe Pros,HVAC,4.81,"MI,ID"
+T00410,BrightSpark Electric,Electrical,3.7,"FL,AR"
+T00411,VoltGuard Electrical,Electrical,4.63,"IL,AL"
+T00412,HeatWave HVAC,Electrical,3.83,"CT,VT"
+T00413,BlueSky Plumbing,Appliances,3.27,HI
+T00414,ApplianceFix,Electrical,4.25,"WI,NJ"
+T00415,HeatWave HVAC,Electrical,4.38,"IL,WI,CT"
+T00416,BrightSpark Electric,Appliances,4.45,"VA,CO,FL"
+T00417,HeatWave HVAC,Electrical,3.34,"MD,AR,PA"
+T00418,AC Masters,HVAC,4.22,RI
+T00419,HeatWave HVAC,Electrical,3.87,"WI,IA"
+T00420,HomePro Repairs,Appliances,3.63,VT
+T00421,Pipe Pros,HVAC,4.37,TX
+T00422,BlueSky Plumbing,HVAC,3.69,"PA,DE,ND"
+T00423,BrightSpark Electric,HVAC,3.71,DE
+T00424,VoltGuard Electrical,Plumbing,3.37,"NE,MS"
+T00425,Pipe Pros,Electrical,4.08,"LA,WA"
+T00426,VoltGuard Electrical,Plumbing,3.34,"FL,HI"
+T00427,HeatWave HVAC,Plumbing,4.38,"GA,SD,OH"
+T00428,HomePro Repairs,Plumbing,4.52,NM
+T00429,HomePro Repairs,Plumbing,4.46,"NE,NH,NJ"
+T00430,AC Masters,Appliances,3.55,"IN,CT,CO"
+T00431,AC Masters,HVAC,4.08,TX
+T00432,BlueSky Plumbing,HVAC,4.55,"VA,DE,GA"
+T00433,HeatWave HVAC,Plumbing,4.96,"GA,FL,MO"
+T00434,ApplianceFix,Appliances,4.02,"NE,VT"
+T00435,HomePro Repairs,Appliances,3.46,TN
+T00436,AC Masters,Plumbing,4.03,"MA,SC"
+T00437,BlueSky Plumbing,Plumbing,4.59,"AL,NV,KS"
+T00438,Pipe Pros,Appliances,3.75,"CT,MT"
+T00439,BrightSpark Electric,HVAC,4.04,"IA,ND,RI"
+T00440,HomePro Repairs,Electrical,3.99,"PA,WV,CT"
+T00441,BlueSky Plumbing,HVAC,4.77,"OK,KY,TX"
+T00442,AC Masters,Electrical,3.9,"MI,MT,NE"
+T00443,HeatWave HVAC,Appliances,4.15,"VT,CT,IL"
+T00444,AC Masters,HVAC,3.91,OK
+T00445,BlueSky Plumbing,Plumbing,4.37,KS
+T00446,AC Masters,Plumbing,3.88,"OR,CA,FL"
+T00447,AC Masters,Electrical,3.9,"MA,IN,WV"
+T00448,VoltGuard Electrical,HVAC,4.0,"NE,AR,ID"
+T00449,AC Masters,Electrical,3.2,AL
+T00450,AC Masters,Electrical,3.5,IA
+T00451,HomePro Repairs,HVAC,3.66,NY
+T00452,HomePro Repairs,HVAC,3.55,"IA,KS"
+T00453,Pipe Pros,HVAC,4.07,MI
+T00454,BlueSky Plumbing,Plumbing,3.92,NM
+T00455,Pipe Pros,Electrical,4.19,"NJ,ID"
+T00456,HomePro Repairs,HVAC,3.41,MS
+T00457,BrightSpark Electric,Electrical,3.25,OR
+T00458,ApplianceFix,Electrical,4.22,"SD,NH,NE"
+T00459,HeatWave HVAC,Electrical,4.8,WY
+T00460,AC Masters,Plumbing,4.34,OK
+T00461,BrightSpark Electric,Electrical,3.84,"IN,LA,UT"
+T00462,ApplianceFix,Electrical,4.02,"NC,WV"
+T00463,ApplianceFix,Plumbing,4.85,"AL,NM,MA"
+T00464,AC Masters,Electrical,3.86,"TN,KY,CO"
+T00465,VoltGuard Electrical,Appliances,4.24,NY
+T00466,Pipe Pros,Appliances,3.96,"NY,NE"
+T00467,BrightSpark Electric,Plumbing,4.38,"AR,DE"
+T00468,Pipe Pros,Appliances,3.75,"NC,WI,IN"
+T00469,Pipe Pros,Electrical,3.87,"MA,IN"
+T00470,BrightSpark Electric,Appliances,4.44,ME
+T00471,BrightSpark Electric,Plumbing,3.4,IA
+T00472,HeatWave HVAC,HVAC,3.36,"CA,WV,GA"
+T00473,BlueSky Plumbing,Appliances,3.99,"CO,RI,WI"
+T00474,VoltGuard Electrical,Appliances,4.72,IN
+T00475,ApplianceFix,Appliances,4.82,CA
+T00476,HeatWave HVAC,HVAC,4.56,"TX,CA,NH"
+T00477,BlueSky Plumbing,Electrical,3.98,"OR,MT,MI"
+T00478,HomePro Repairs,Plumbing,4.91,"WV,ME,MA"
+T00479,VoltGuard Electrical,Appliances,4.65,RI
+T00480,VoltGuard Electrical,HVAC,4.05,"CA,RI,KS"
+T00481,VoltGuard Electrical,Appliances,4.45,"UT,MA"
+T00482,Pipe Pros,Plumbing,4.45,"NJ,WA,MS"
+T00483,ApplianceFix,Plumbing,4.22,"FL,RI"
+T00484,HeatWave HVAC,Electrical,3.97,CA
+T00485,VoltGuard Electrical,Appliances,3.96,"WI,MD"
+T00486,Pipe Pros,Appliances,3.66,"AZ,VT,WA"
+T00487,VoltGuard Electrical,HVAC,4.15,"NC,KY,UT"
+T00488,VoltGuard Electrical,Appliances,3.28,"ND,OR,WY"
+T00489,AC Masters,Electrical,3.22,"WI,NM,CO"
+T00490,VoltGuard Electrical,HVAC,4.43,"SC,CA"
+T00491,BrightSpark Electric,Electrical,4.06,DE
+T00492,ApplianceFix,Plumbing,3.22,"FL,MO"
+T00493,BlueSky Plumbing,HVAC,4.29,CT
+T00494,ApplianceFix,HVAC,4.94,"SC,MN,WY"
+T00495,HomePro Repairs,HVAC,3.76,"VT,CA,AR"
+T00496,BrightSpark Electric,Electrical,3.49,"FL,NM,NH"
+T00497,ApplianceFix,HVAC,4.56,NC
+T00498,BrightSpark Electric,HVAC,4.17,"ND,MT,MD"
+T00499,Pipe Pros,Electrical,4.18,"DE,RI"
+T00500,Pipe Pros,Electrical,3.26,"DE,AZ,NM"
+T00501,Pipe Pros,HVAC,3.81,"HI,WV"
+T00502,VoltGuard Electrical,Appliances,4.3,"ME,RI"
+T00503,ApplianceFix,HVAC,3.48,"TN,FL"
+T00504,Pipe Pros,Appliances,4.05,"OK,IA,ME"
+T00505,AC Masters,Electrical,3.58,"OR,HI"
+T00506,VoltGuard Electrical,Electrical,4.52,"OK,AL,OR"
+T00507,HeatWave HVAC,HVAC,4.19,WI
+T00508,HeatWave HVAC,Appliances,4.58,OH
+T00509,HeatWave HVAC,HVAC,3.23,"AL,MT"
+T00510,BlueSky Plumbing,Appliances,3.92,"KY,ND,FL"
+T00511,HomePro Repairs,HVAC,3.86,"NE,CO,ID"
+T00512,VoltGuard Electrical,Plumbing,3.88,"PA,OK,ND"
+T00513,VoltGuard Electrical,Appliances,3.23,AL
+T00514,HeatWave HVAC,Electrical,4.11,"MN,IN,RI"
+T00515,Pipe Pros,HVAC,3.22,"UT,OR"
+T00516,BrightSpark Electric,Appliances,4.63,"HI,WV"
+T00517,BrightSpark Electric,HVAC,3.49,WY
+T00518,HomePro Repairs,Electrical,3.86,"IA,KS,MI"
+T00519,Pipe Pros,Appliances,3.28,"MT,MI,IL"
+T00520,Pipe Pros,Plumbing,3.71,"VT,TX"
+T00521,AC Masters,Electrical,4.09,"MT,DE"
+T00522,Pipe Pros,HVAC,4.34,NH
+T00523,ApplianceFix,Electrical,3.61,CA
+T00524,AC Masters,Electrical,4.96,"ME,GA,OR"
+T00525,Pipe Pros,HVAC,4.54,"NC,CO,VA"
+T00526,AC Masters,HVAC,3.69,"RI,KS"
+T00527,AC Masters,Electrical,3.87,"CO,AK,NM"
+T00528,HeatWave HVAC,HVAC,3.83,"IA,OR"
+T00529,BlueSky Plumbing,Plumbing,3.9,PA
+T00530,ApplianceFix,Electrical,3.34,NC
+T00531,AC Masters,Appliances,4.33,IA
+T00532,AC Masters,HVAC,3.53,"IA,MN"
+T00533,Pipe Pros,Plumbing,3.26,RI
+T00534,HomePro Repairs,Electrical,4.64,UT
+T00535,BlueSky Plumbing,Appliances,4.04,"MS,MD"
+T00536,HeatWave HVAC,Appliances,3.5,"IL,IA"
+T00537,BlueSky Plumbing,Plumbing,4.05,"KS,MD"
+T00538,BlueSky Plumbing,Appliances,3.63,"LA,HI,AR"
+T00539,ApplianceFix,Electrical,4.9,"MN,UT,SC"
+T00540,BrightSpark Electric,HVAC,4.5,"KS,RI"
+T00541,HomePro Repairs,Electrical,4.87,"IA,NM"
+T00542,BrightSpark Electric,Electrical,4.25,NH
+T00543,HomePro Repairs,Plumbing,4.52,"WA,MN"
+T00544,BrightSpark Electric,Electrical,3.89,NE
+T00545,BrightSpark Electric,Electrical,4.63,"AZ,VT"
+T00546,HomePro Repairs,Appliances,3.98,"ID,NC,MS"
+T00547,Pipe Pros,Plumbing,4.0,NH
+T00548,BlueSky Plumbing,Plumbing,4.53,"MI,WI"
+T00549,BlueSky Plumbing,Electrical,3.33,"OR,KS,CT"
+T00550,VoltGuard Electrical,Electrical,4.58,"MS,IL"
+T00551,VoltGuard Electrical,Electrical,4.25,"WI,MT,WA"
+T00552,HomePro Repairs,Appliances,4.71,"TN,CO,LA"
+T00553,HomePro Repairs,Plumbing,3.77,WI
+T00554,HomePro Repairs,Electrical,4.04,ND
+T00555,BlueSky Plumbing,HVAC,3.64,"TX,NJ"
+T00556,Pipe Pros,Plumbing,4.29,"NJ,NM,MI"
+T00557,VoltGuard Electrical,Electrical,4.89,WY
+T00558,AC Masters,Plumbing,4.85,"LA,VT"
+T00559,AC Masters,Electrical,3.21,"OH,CO"
+T00560,AC Masters,HVAC,4.37,"AR,SD,KS"
+T00561,AC Masters,Electrical,3.9,"AZ,CT,WY"
+T00562,Pipe Pros,HVAC,4.48,SD
+T00563,BlueSky Plumbing,Appliances,4.3,"WA,SC,IL"
+T00564,ApplianceFix,Appliances,4.05,HI
+T00565,VoltGuard Electrical,HVAC,3.95,"IL,SD"
+T00566,Pipe Pros,Electrical,3.55,"UT,DE,CA"
+T00567,HeatWave HVAC,Plumbing,4.84,"AR,GA,UT"
+T00568,BrightSpark Electric,Plumbing,4.54,LA
+T00569,HomePro Repairs,HVAC,4.52,MT
+T00570,HomePro Repairs,Appliances,4.76,"MS,ME"
+T00571,BrightSpark Electric,Appliances,3.98,"WV,FL"
+T00572,AC Masters,HVAC,4.26,AK
+T00573,VoltGuard Electrical,Appliances,3.23,"KS,VA,MI"
+T00574,VoltGuard Electrical,Electrical,3.96,WA
+T00575,HomePro Repairs,Electrical,4.18,UT
+T00576,Pipe Pros,Plumbing,3.54,MN
+T00577,HomePro Repairs,Appliances,4.67,IL
+T00578,HomePro Repairs,HVAC,3.66,"NH,MS,WI"
+T00579,BrightSpark Electric,HVAC,4.93,"PA,ND"
+T00580,ApplianceFix,Electrical,3.74,"WI,TX,NV"
+T00581,BlueSky Plumbing,Plumbing,3.42,"AZ,KS,PA"
+T00582,ApplianceFix,Plumbing,3.5,MN
+T00583,ApplianceFix,HVAC,4.92,"AL,NH,HI"
+T00584,HomePro Repairs,HVAC,4.77,"KY,ME"
+T00585,VoltGuard Electrical,Appliances,3.37,"TX,WY"
+T00586,BlueSky Plumbing,Plumbing,4.86,MA
+T00587,AC Masters,Appliances,4.87,MD
+T00588,Pipe Pros,Appliances,3.73,"VA,TN,HI"
+T00589,BlueSky Plumbing,Appliances,3.66,"HI,MD"
+T00590,ApplianceFix,HVAC,4.42,"ME,ND"
+T00591,ApplianceFix,Appliances,4.96,"MA,UT"
+T00592,BlueSky Plumbing,Plumbing,3.68,"ME,NJ,IL"
+T00593,Pipe Pros,Plumbing,4.2,"VA,MO"
+T00594,ApplianceFix,HVAC,4.45,IL
+T00595,ApplianceFix,HVAC,4.39,ME
+T00596,HeatWave HVAC,HVAC,4.03,"SC,MD,DE"
+T00597,HomePro Repairs,HVAC,4.23,CA
+T00598,VoltGuard Electrical,HVAC,4.62,"NJ,CO,GA"
+T00599,HomePro Repairs,Plumbing,3.67,"MD,NY"
+T00600,ApplianceFix,Appliances,3.51,"IN,MT,WI"
+T00601,HeatWave HVAC,Appliances,3.29,NE
+T00602,VoltGuard Electrical,HVAC,4.25,IA
+T00603,AC Masters,Electrical,4.0,"MO,NJ,AL"
+T00604,BrightSpark Electric,Plumbing,3.4,DE
+T00605,Pipe Pros,Electrical,3.63,"NC,OH,UT"
+T00606,VoltGuard Electrical,Plumbing,4.32,"ME,MS,IA"
+T00607,BrightSpark Electric,Electrical,4.69,RI
+T00608,VoltGuard Electrical,Plumbing,3.37,"GA,ID,MI"
+T00609,VoltGuard Electrical,Plumbing,3.29,MT
+T00610,ApplianceFix,Electrical,4.66,SD
+T00611,HomePro Repairs,HVAC,4.62,DE
+T00612,ApplianceFix,Plumbing,4.01,"GA,TN"
+T00613,HeatWave HVAC,HVAC,4.57,NE
+T00614,HeatWave HVAC,Appliances,4.71,"OH,CT"
+T00615,VoltGuard Electrical,HVAC,3.59,"MD,MN"
+T00616,HomePro Repairs,Plumbing,3.33,"WI,ID,GA"
+T00617,BrightSpark Electric,Plumbing,4.87,MT
+T00618,VoltGuard Electrical,Electrical,3.53,KS
+T00619,ApplianceFix,Appliances,4.06,"DE,ND,WI"
+T00620,BlueSky Plumbing,Plumbing,3.76,ID
+T00621,HeatWave HVAC,Electrical,4.46,WI
+T00622,Pipe Pros,Electrical,4.16,FL
+T00623,AC Masters,Electrical,3.87,NC
+T00624,BlueSky Plumbing,Electrical,3.23,NH
+T00625,VoltGuard Electrical,Plumbing,3.65,"ID,SD"
+T00626,Pipe Pros,Electrical,4.94,AK
+T00627,BrightSpark Electric,HVAC,4.24,"RI,IL"
+T00628,VoltGuard Electrical,Plumbing,3.65,"TN,NE"
+T00629,Pipe Pros,Electrical,3.89,MA
+T00630,BrightSpark Electric,HVAC,3.92,MD
+T00631,BrightSpark Electric,Plumbing,3.91,"ND,MT,CA"
+T00632,HomePro Repairs,Electrical,3.46,"NV,NE"
+T00633,HeatWave HVAC,Appliances,3.93,WA
+T00634,HeatWave HVAC,HVAC,4.63,"NV,MT"
+T00635,BrightSpark Electric,Plumbing,3.33,"NH,WA"
+T00636,Pipe Pros,HVAC,3.87,UT
+T00637,Pipe Pros,HVAC,3.72,"IL,IN,CA"
+T00638,AC Masters,HVAC,4.38,"NY,GA"
+T00639,BlueSky Plumbing,Electrical,3.47,IL
+T00640,ApplianceFix,Appliances,3.68,"MO,NJ,ME"
+T00641,ApplianceFix,Appliances,3.85,"ID,NM,TN"
+T00642,HeatWave HVAC,Electrical,3.96,OR
+T00643,BrightSpark Electric,Plumbing,4.33,"IN,NJ,ME"
+T00644,HeatWave HVAC,Electrical,4.82,SD
+T00645,Pipe Pros,Electrical,4.91,"CO,CA,KS"
+T00646,AC Masters,HVAC,4.65,"DE,IA"
+T00647,VoltGuard Electrical,Plumbing,3.36,"PA,WA"
+T00648,HomePro Repairs,Electrical,4.0,"MI,RI"
+T00649,VoltGuard Electrical,Electrical,3.5,"KS,OK"
+T00650,BrightSpark Electric,Plumbing,4.34,"DE,VT,ND"
+T00651,BlueSky Plumbing,HVAC,4.21,OH
+T00652,AC Masters,Plumbing,4.56,"KS,AK"
+T00653,AC Masters,HVAC,3.57,DE
+T00654,BlueSky Plumbing,HVAC,4.08,FL
+T00655,BrightSpark Electric,Plumbing,3.61,KS
+T00656,AC Masters,Appliances,3.54,"MD,WV"
+T00657,AC Masters,Electrical,4.02,"WI,SD,WV"
+T00658,BlueSky Plumbing,Plumbing,4.8,"SC,RI"
+T00659,AC Masters,Electrical,3.48,"VT,SD,VA"
+T00660,Pipe Pros,Plumbing,3.91,ND
+T00661,ApplianceFix,HVAC,4.18,KY
+T00662,VoltGuard Electrical,Electrical,4.33,"CO,UT"
+T00663,VoltGuard Electrical,Appliances,4.8,NY
+T00664,VoltGuard Electrical,Appliances,4.23,UT
+T00665,HomePro Repairs,Appliances,4.76,"VA,ID,MA"
+T00666,Pipe Pros,Plumbing,3.87,"WV,HI"
+T00667,HeatWave HVAC,Appliances,4.26,"SC,NJ"
+T00668,ApplianceFix,HVAC,3.92,"AZ,WY,ME"
+T00669,HomePro Repairs,Plumbing,4.6,TN
+T00670,BlueSky Plumbing,Plumbing,4.58,"PA,KS"
+T00671,VoltGuard Electrical,Appliances,4.31,"TX,NY"
+T00672,HeatWave HVAC,Plumbing,4.12,"AL,WI,FL"
+T00673,Pipe Pros,Plumbing,3.61,"SD,WY"
+T00674,AC Masters,Plumbing,3.69,"LA,MO"
+T00675,ApplianceFix,Electrical,3.7,ID
+T00676,BlueSky Plumbing,Electrical,4.91,"OR,AL,MN"
+T00677,AC Masters,Plumbing,3.63,"SD,NE"
+T00678,ApplianceFix,Appliances,3.92,SD
+T00679,AC Masters,Electrical,3.36,"MS,NM,LA"
+T00680,ApplianceFix,Appliances,4.25,"ME,NH"
+T00681,HomePro Repairs,HVAC,3.68,NH
+T00682,AC Masters,HVAC,3.96,CO
+T00683,AC Masters,Appliances,4.08,UT
+T00684,AC Masters,Electrical,4.1,NJ
+T00685,ApplianceFix,Plumbing,4.13,"IL,CO,WY"
+T00686,BlueSky Plumbing,Appliances,4.34,"MD,UT,DE"
+T00687,ApplianceFix,Plumbing,4.38,HI
+T00688,VoltGuard Electrical,Appliances,4.77,"MA,VA"
+T00689,HomePro Repairs,HVAC,3.53,"CT,IN"
+T00690,HomePro Repairs,Appliances,3.61,"UT,AZ"
+T00691,HomePro Repairs,Electrical,3.62,"MS,HI,FL"
+T00692,BrightSpark Electric,HVAC,4.46,"MT,TN"
+T00693,Pipe Pros,Appliances,3.35,"WY,AL"
+T00694,BlueSky Plumbing,Electrical,3.89,WA
+T00695,AC Masters,Electrical,4.59,MD
+T00696,AC Masters,Electrical,3.41,OH
+T00697,HeatWave HVAC,Electrical,3.36,"OH,NC"
+T00698,VoltGuard Electrical,HVAC,3.26,"OK,ME"
+T00699,BlueSky Plumbing,Plumbing,4.11,WA
+T00700,BlueSky Plumbing,Appliances,3.69,"NH,HI,CT"
+T00701,VoltGuard Electrical,Appliances,3.42,AL
+T00702,BrightSpark Electric,Electrical,4.83,"NV,WI"
+T00703,AC Masters,Electrical,4.67,"NY,TN,SD"
+T00704,HeatWave HVAC,HVAC,3.52,"WV,MN"
+T00705,VoltGuard Electrical,Appliances,4.98,AR
+T00706,VoltGuard Electrical,Appliances,3.39,"MN,MT"
+T00707,VoltGuard Electrical,Electrical,4.35,"MO,PA,KS"
+T00708,ApplianceFix,Plumbing,3.53,"NM,UT"
+T00709,Pipe Pros,Appliances,3.21,"MI,CO,ND"
+T00710,VoltGuard Electrical,Plumbing,3.32,"ID,ME,IN"
+T00711,AC Masters,Electrical,4.24,"NJ,NY,AR"
+T00712,BlueSky Plumbing,HVAC,4.67,"NC,SC,MT"
+T00713,BrightSpark Electric,Plumbing,4.69,"ID,AZ,OK"
+T00714,HomePro Repairs,HVAC,4.47,MO
+T00715,VoltGuard Electrical,Electrical,4.81,OR
+T00716,VoltGuard Electrical,Electrical,4.31,MO
+T00717,BlueSky Plumbing,HVAC,4.47,"KS,CO,AK"
+T00718,HomePro Repairs,Electrical,4.75,"NC,IL"
+T00719,HomePro Repairs,Electrical,4.58,"MS,AL"
+T00720,AC Masters,Electrical,4.89,"FL,MS,ND"
+T00721,BrightSpark Electric,Plumbing,4.03,SC
+T00722,BlueSky Plumbing,Plumbing,3.23,CO
+T00723,VoltGuard Electrical,Appliances,4.24,IL
+T00724,BrightSpark Electric,Electrical,4.38,MI
+T00725,AC Masters,Electrical,4.46,"NC,MS"
+T00726,HeatWave HVAC,Appliances,4.87,"DE,IN,NH"
+T00727,HomePro Repairs,Appliances,4.71,"OK,RI,ID"
+T00728,HomePro Repairs,HVAC,3.54,"AK,NY"
+T00729,Pipe Pros,HVAC,4.58,"NV,IN,CA"
+T00730,HeatWave HVAC,Appliances,4.02,"MD,NE,ID"
+T00731,Pipe Pros,Appliances,3.21,TX
+T00732,BrightSpark Electric,HVAC,3.65,OR
+T00733,AC Masters,Plumbing,3.48,"NC,NH,SC"
+T00734,Pipe Pros,HVAC,4.96,UT
+T00735,HomePro Repairs,Plumbing,4.18,KS
+T00736,VoltGuard Electrical,Appliances,3.88,"MO,HI"
+T00737,HeatWave HVAC,Electrical,3.66,"MS,GA"
+T00738,BlueSky Plumbing,HVAC,3.77,SC
+T00739,ApplianceFix,HVAC,4.15,"MT,AR"
+T00740,AC Masters,Appliances,3.4,"NV,MS,CT"
+T00741,BrightSpark Electric,HVAC,4.61,AL
+T00742,ApplianceFix,HVAC,4.03,MN
+T00743,VoltGuard Electrical,Plumbing,3.22,"NM,ND"
+T00744,ApplianceFix,Appliances,3.57,"UT,ND,KS"
+T00745,VoltGuard Electrical,Plumbing,4.81,"HI,TX"
+T00746,ApplianceFix,Electrical,3.39,IL
+T00747,BlueSky Plumbing,HVAC,4.05,LA
+T00748,AC Masters,Appliances,4.7,"MS,IA"
+T00749,Pipe Pros,HVAC,3.72,"ME,IN,IL"
+T00750,VoltGuard Electrical,HVAC,3.53,"NE,TN,AL"
+T00751,HomePro Repairs,Plumbing,3.89,NJ
+T00752,HeatWave HVAC,Electrical,3.97,ME
+T00753,HeatWave HVAC,Appliances,3.95,"WY,MD"
+T00754,BlueSky Plumbing,Plumbing,4.17,PA
+T00755,BlueSky Plumbing,Plumbing,4.47,UT
+T00756,Pipe Pros,Appliances,3.99,"GA,AK,OK"
+T00757,HeatWave HVAC,Appliances,3.88,"AL,SD,UT"
+T00758,ApplianceFix,Electrical,3.34,KS
+T00759,VoltGuard Electrical,HVAC,4.41,NY
+T00760,HeatWave HVAC,Plumbing,3.58,"OK,AR,SC"
+T00761,VoltGuard Electrical,HVAC,4.9,UT
+T00762,BlueSky Plumbing,Appliances,3.66,"MA,TN"
+T00763,Pipe Pros,Plumbing,3.54,"GA,MD"
+T00764,HeatWave HVAC,HVAC,4.51,"ME,MN"
+T00765,Pipe Pros,Appliances,4.05,"NY,DE"
+T00766,HeatWave HVAC,Plumbing,3.54,"RI,KY,OK"
+T00767,ApplianceFix,Electrical,4.98,"IL,MO"
+T00768,ApplianceFix,Plumbing,3.92,"MI,SD,NM"
+T00769,BrightSpark Electric,Plumbing,4.14,UT
+T00770,BrightSpark Electric,Appliances,3.2,"NM,CA"
+T00771,HeatWave HVAC,Appliances,4.96,AR
+T00772,ApplianceFix,Plumbing,3.41,"ME,SD,NH"
+T00773,ApplianceFix,HVAC,3.72,"RI,NY"
+T00774,AC Masters,Plumbing,4.71,"WV,ID,TX"
+T00775,HomePro Repairs,Appliances,4.88,KY
+T00776,BrightSpark Electric,Electrical,3.99,TX
+T00777,ApplianceFix,HVAC,4.89,"LA,MT,DE"
+T00778,Pipe Pros,HVAC,3.68,MT
+T00779,BrightSpark Electric,HVAC,4.97,"UT,HI,MD"
+T00780,HeatWave HVAC,Appliances,4.16,"KS,MA"
+T00781,ApplianceFix,Electrical,4.41,"IA,ND"
+T00782,BrightSpark Electric,HVAC,3.97,GA
+T00783,BlueSky Plumbing,Electrical,4.1,AK
+T00784,HeatWave HVAC,HVAC,3.87,"VA,WY"
+T00785,BlueSky Plumbing,HVAC,4.6,"OR,CT,LA"
+T00786,HeatWave HVAC,HVAC,4.67,"PA,WI,MS"
+T00787,HomePro Repairs,Appliances,3.51,"RI,IL"
+T00788,ApplianceFix,Plumbing,3.91,"NC,IA,OK"
+T00789,AC Masters,Appliances,3.6,FL
+T00790,VoltGuard Electrical,Appliances,3.4,NC
+T00791,VoltGuard Electrical,Plumbing,3.76,GA
+T00792,HeatWave HVAC,Electrical,4.55,"NE,MS,CT"
+T00793,HomePro Repairs,Electrical,3.87,"NH,IA"
+T00794,BrightSpark Electric,Plumbing,4.84,"MS,AR"
+T00795,ApplianceFix,Appliances,4.9,"SD,MO"
+T00796,HomePro Repairs,HVAC,4.69,"VT,AR"
+T00797,VoltGuard Electrical,Appliances,4.83,"DE,WY,KY"
+T00798,HeatWave HVAC,Appliances,4.83,"IA,VA"
+T00799,ApplianceFix,Appliances,4.03,OK
+T00800,HeatWave HVAC,Plumbing,3.89,"OK,SC"
+T00801,AC Masters,Electrical,4.22,NV
+T00802,BlueSky Plumbing,Electrical,4.78,"NH,WV"
+T00803,VoltGuard Electrical,Appliances,3.65,"NM,PA,OK"
+T00804,BrightSpark Electric,Electrical,4.55,MO
+T00805,HomePro Repairs,Electrical,4.11,ME
+T00806,AC Masters,HVAC,3.48,"AL,VT"
+T00807,Pipe Pros,Electrical,4.27,"IN,DE"
+T00808,VoltGuard Electrical,Appliances,3.92,"CT,AK"
+T00809,HomePro Repairs,HVAC,4.63,CT
+T00810,BlueSky Plumbing,Electrical,3.94,"TN,DE,RI"
+T00811,BrightSpark Electric,Plumbing,3.4,"TX,MD,CT"
+T00812,HeatWave HVAC,HVAC,3.86,GA
+T00813,ApplianceFix,Plumbing,3.21,NV
+T00814,AC Masters,HVAC,4.31,"NY,RI"
+T00815,AC Masters,HVAC,4.23,MN
+T00816,HeatWave HVAC,Electrical,4.55,MT
+T00817,HomePro Repairs,HVAC,4.36,"WY,NE,TX"
+T00818,Pipe Pros,Electrical,3.36,"TX,CA"
+T00819,Pipe Pros,Plumbing,4.41,"SD,FL,KY"
+T00820,HomePro Repairs,Plumbing,3.98,"CO,WA,GA"
+T00821,AC Masters,Electrical,4.85,"OH,SC,SD"
+T00822,HomePro Repairs,Electrical,4.07,"MD,SC"
+T00823,AC Masters,Appliances,3.48,IA
+T00824,BrightSpark Electric,Appliances,3.48,MD
+T00825,HeatWave HVAC,Appliances,3.5,NV
+T00826,VoltGuard Electrical,Plumbing,3.28,"AK,SC"
+T00827,VoltGuard Electrical,Plumbing,4.42,MS
+T00828,Pipe Pros,Electrical,4.02,"VA,FL,WI"
+T00829,BrightSpark Electric,Plumbing,4.3,"MI,VT"
+T00830,BrightSpark Electric,Appliances,3.4,"ND,ID,NJ"
+T00831,HeatWave HVAC,Appliances,4.36,NC
+T00832,VoltGuard Electrical,HVAC,3.55,"WA,MT"
+T00833,HomePro Repairs,HVAC,4.85,"WA,OK,HI"
+T00834,BlueSky Plumbing,HVAC,3.38,OR
+T00835,Pipe Pros,HVAC,4.5,"IN,UT,NJ"
+T00836,ApplianceFix,HVAC,4.16,"MA,OK,OH"
+T00837,HeatWave HVAC,Appliances,4.22,WY
+T00838,VoltGuard Electrical,Appliances,4.68,KY
+T00839,Pipe Pros,Electrical,4.02,"WY,TN,AR"
+T00840,Pipe Pros,HVAC,4.41,"ND,NY,TX"
+T00841,Pipe Pros,Appliances,4.24,"CO,OH,NM"
+T00842,VoltGuard Electrical,Electrical,3.82,NM
+T00843,Pipe Pros,Appliances,3.41,"NC,NJ"
+T00844,ApplianceFix,HVAC,3.29,"HI,MA,IA"
+T00845,AC Masters,Plumbing,3.8,IN
+T00846,BlueSky Plumbing,Plumbing,4.76,MI
+T00847,HomePro Repairs,Plumbing,4.39,AK
+T00848,ApplianceFix,HVAC,4.81,"IN,WA"
+T00849,BrightSpark Electric,Plumbing,3.69,TX
+T00850,ApplianceFix,Appliances,3.29,PA
+T00851,BrightSpark Electric,Plumbing,3.56,OR
+T00852,VoltGuard Electrical,Appliances,4.33,"RI,KY"
+T00853,VoltGuard Electrical,HVAC,4.33,"LA,RI,DE"
+T00854,BrightSpark Electric,Appliances,4.07,"VA,WA"
+T00855,ApplianceFix,Appliances,4.59,NE
+T00856,AC Masters,Appliances,3.51,"LA,OR,AL"
+T00857,BlueSky Plumbing,Electrical,3.94,SC
+T00858,VoltGuard Electrical,Plumbing,4.91,"NC,KS"
+T00859,AC Masters,Plumbing,3.3,"KY,HI"
+T00860,Pipe Pros,Plumbing,4.63,IA
+T00861,BrightSpark Electric,Electrical,3.57,GA
+T00862,HeatWave HVAC,HVAC,3.88,DE
+T00863,HomePro Repairs,HVAC,4.84,"VA,NH"
+T00864,ApplianceFix,Electrical,3.46,"IA,ND,CT"
+T00865,HeatWave HVAC,Plumbing,4.42,"KY,MD"
+T00866,HomePro Repairs,HVAC,3.5,"KY,ID,MT"
+T00867,BlueSky Plumbing,Appliances,4.2,"PA,CA,ID"
+T00868,AC Masters,Appliances,3.49,HI
+T00869,ApplianceFix,Electrical,3.62,WY
+T00870,BlueSky Plumbing,HVAC,3.23,MD
+T00871,ApplianceFix,Electrical,3.81,NY
+T00872,ApplianceFix,Plumbing,3.44,"AL,MD,KY"
+T00873,HomePro Repairs,Appliances,4.14,"OK,AL,SD"
+T00874,HomePro Repairs,Electrical,4.72,"KS,OR"
+T00875,AC Masters,Plumbing,3.61,MO
+T00876,BlueSky Plumbing,HVAC,4.36,"NM,WY,FL"
+T00877,HomePro Repairs,Plumbing,3.27,WI
+T00878,HomePro Repairs,HVAC,4.58,"FL,AK"
+T00879,AC Masters,HVAC,4.57,"MI,NH"
+T00880,HomePro Repairs,Plumbing,3.72,WI
+T00881,VoltGuard Electrical,Plumbing,4.53,"OK,AL,NE"
+T00882,BrightSpark Electric,Appliances,3.81,OR
+T00883,HeatWave HVAC,HVAC,4.19,"KS,UT,FL"
+T00884,BrightSpark Electric,Appliances,4.03,"MT,NY"
+T00885,VoltGuard Electrical,Plumbing,3.43,HI
+T00886,HomePro Repairs,Electrical,4.59,"KY,ME"
+T00887,Pipe Pros,HVAC,3.72,"NM,WY"
+T00888,Pipe Pros,Appliances,4.81,"NC,TN"
+T00889,AC Masters,Plumbing,4.72,OH
+T00890,HomePro Repairs,HVAC,4.69,"AZ,RI"
+T00891,BlueSky Plumbing,Electrical,3.39,WV
+T00892,AC Masters,Electrical,4.06,"UT,NC,TX"
+T00893,ApplianceFix,Plumbing,4.49,"LA,SD,ME"
+T00894,AC Masters,Plumbing,3.6,"KS,CA,IN"
+T00895,BrightSpark Electric,HVAC,3.65,"UT,IN"
+T00896,VoltGuard Electrical,HVAC,3.98,"MA,ID"
+T00897,VoltGuard Electrical,Plumbing,3.6,"VT,WV"
+T00898,BrightSpark Electric,Electrical,3.46,"VT,WI"
+T00899,HomePro Repairs,Plumbing,3.77,"GA,ID"
+T00900,VoltGuard Electrical,Electrical,3.93,"WI,CO,VA"
+T00901,BlueSky Plumbing,Appliances,3.69,"SD,TN,MS"
+T00902,BlueSky Plumbing,Appliances,4.32,"TX,VT,AZ"
+T00903,BlueSky Plumbing,Electrical,4.1,"IL,OH"
+T00904,HeatWave HVAC,HVAC,3.48,"NH,TN,NJ"
+T00905,HeatWave HVAC,Appliances,4.19,"MS,OK"
+T00906,BrightSpark Electric,Plumbing,4.0,"NM,OR,KY"
+T00907,AC Masters,Plumbing,4.02,LA
+T00908,BlueSky Plumbing,Appliances,3.27,OK
+T00909,AC Masters,Plumbing,3.35,"OR,NJ"
+T00910,Pipe Pros,Electrical,4.56,"NV,MT,AL"
+T00911,VoltGuard Electrical,Plumbing,4.18,CA
+T00912,AC Masters,Plumbing,3.95,IN
+T00913,BrightSpark Electric,Plumbing,4.19,"NV,VA"
+T00914,VoltGuard Electrical,HVAC,3.81,"VT,ID,WV"
+T00915,Pipe Pros,Electrical,3.94,"WV,PA"
+T00916,ApplianceFix,HVAC,4.56,"WA,SC"
+T00917,VoltGuard Electrical,HVAC,4.86,"MD,IA"
+T00918,ApplianceFix,Electrical,4.92,"NJ,WA,TX"
+T00919,Pipe Pros,Appliances,4.05,"MI,AZ,MA"
+T00920,HomePro Repairs,Plumbing,4.55,"KY,LA,OH"
+T00921,BlueSky Plumbing,Plumbing,3.4,WI
+T00922,ApplianceFix,Plumbing,3.7,"AZ,TN"
+T00923,ApplianceFix,Electrical,4.3,"TX,WV,AK"
+T00924,AC Masters,Electrical,3.53,OR
+T00925,Pipe Pros,Electrical,3.67,CO
+T00926,AC Masters,Appliances,4.36,"SD,MI,ID"
+T00927,AC Masters,Electrical,3.77,NV
+T00928,Pipe Pros,Plumbing,4.47,"MN,OH"
+T00929,HeatWave HVAC,HVAC,3.31,"AL,GA,FL"
+T00930,Pipe Pros,Plumbing,4.11,DE
+T00931,HomePro Repairs,Appliances,4.36,"NV,IA,LA"
+T00932,BrightSpark Electric,Appliances,4.71,"AK,NM,RI"
+T00933,HeatWave HVAC,Appliances,3.59,"OK,AZ,ME"
+T00934,AC Masters,Electrical,3.71,AZ
+T00935,HeatWave HVAC,Appliances,4.86,"MN,SD,IL"
+T00936,Pipe Pros,Electrical,3.65,"SC,OH,MA"
+T00937,ApplianceFix,HVAC,4.88,"WV,KY"
+T00938,ApplianceFix,Plumbing,4.83,"IN,MO,TX"
+T00939,BlueSky Plumbing,Electrical,4.04,"GA,KS"
+T00940,AC Masters,Plumbing,4.48,KS
+T00941,Pipe Pros,Appliances,4.62,"CA,KY,ID"
+T00942,BrightSpark Electric,Electrical,3.41,"TX,MA,NM"
+T00943,HomePro Repairs,Appliances,3.4,"HI,ID"
+T00944,Pipe Pros,Electrical,3.94,"CO,NM,HI"
+T00945,HeatWave HVAC,HVAC,3.63,"ND,CO"
+T00946,ApplianceFix,Electrical,4.75,IL
+T00947,BlueSky Plumbing,Appliances,4.65,"OH,OR"
+T00948,HomePro Repairs,Appliances,4.88,"DE,WI,AL"
+T00949,BlueSky Plumbing,Electrical,4.9,"RI,OH,TX"
+T00950,Pipe Pros,Appliances,3.71,VT
+T00951,HeatWave HVAC,Plumbing,3.47,"VA,PA,TX"
+T00952,HomePro Repairs,HVAC,3.27,AZ
+T00953,HomePro Repairs,Appliances,4.26,ME
+T00954,Pipe Pros,HVAC,4.03,MS
+T00955,AC Masters,Appliances,4.92,GA
+T00956,HeatWave HVAC,Electrical,3.29,"NE,FL,OK"
+T00957,HeatWave HVAC,Appliances,3.43,VA
+T00958,HomePro Repairs,HVAC,4.62,MD
+T00959,BlueSky Plumbing,Plumbing,4.38,"AL,PA,ID"
+T00960,BlueSky Plumbing,HVAC,3.78,MN
+T00961,AC Masters,Electrical,3.36,"MS,AR,ID"
+T00962,ApplianceFix,Appliances,4.56,"PA,VT,MN"
+T00963,BrightSpark Electric,Plumbing,4.59,"KS,PA"
+T00964,AC Masters,Plumbing,3.7,IA
+T00965,BlueSky Plumbing,HVAC,4.36,"NE,WI,KS"
+T00966,Pipe Pros,HVAC,3.99,"MA,CO,NV"
+T00967,Pipe Pros,Electrical,3.46,"WV,LA,IA"
+T00968,BrightSpark Electric,Plumbing,4.81,ID
+T00969,HeatWave HVAC,HVAC,4.84,"VA,MO,MN"
+T00970,BlueSky Plumbing,HVAC,4.11,GA
+T00971,VoltGuard Electrical,Appliances,4.78,AL
+T00972,ApplianceFix,HVAC,4.07,NE
+T00973,HomePro Repairs,Electrical,3.98,TN
+T00974,HomePro Repairs,Plumbing,3.94,"WY,CA,NM"
+T00975,BrightSpark Electric,Plumbing,4.97,"WA,OK"
+T00976,VoltGuard Electrical,Appliances,4.71,OK
+T00977,BrightSpark Electric,Appliances,4.03,"SD,TX"
+T00978,Pipe Pros,Electrical,3.65,AL
+T00979,BrightSpark Electric,Plumbing,3.96,SC
+T00980,Pipe Pros,Plumbing,4.42,"AK,IL,PA"
+T00981,HeatWave HVAC,Appliances,4.52,"WA,TX"
+T00982,HomePro Repairs,Plumbing,4.57,"CA,NM,VA"
+T00983,HeatWave HVAC,HVAC,3.48,"IA,SC,MI"
+T00984,HeatWave HVAC,HVAC,3.38,"NV,UT"
+T00985,AC Masters,HVAC,4.92,"MS,KY,GA"
+T00986,ApplianceFix,Appliances,3.92,"GA,AR"
+T00987,BlueSky Plumbing,Appliances,4.81,"MD,AR"
+T00988,Pipe Pros,HVAC,4.7,"MI,CT,NY"
+T00989,AC Masters,Electrical,3.75,"AZ,NH,DE"
+T00990,ApplianceFix,Plumbing,4.03,"MD,FL"
+T00991,HeatWave HVAC,Electrical,3.4,ND
+T00992,Pipe Pros,HVAC,3.86,"AR,NC"
+T00993,VoltGuard Electrical,HVAC,3.47,NJ
+T00994,BlueSky Plumbing,Electrical,4.42,VA
+T00995,BlueSky Plumbing,Plumbing,4.05,"MN,TX,DE"
+T00996,ApplianceFix,HVAC,4.13,MI
+T00997,VoltGuard Electrical,Appliances,4.3,"MO,TN,NY"
+T00998,VoltGuard Electrical,Appliances,3.36,"OK,TX"
+T00999,BlueSky Plumbing,Plumbing,4.44,"WV,IA"
+T01000,HeatWave HVAC,Plumbing,4.36,"FL,UT"
