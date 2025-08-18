@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+pandas
+tqdm
+
+langchain
+langchain-openai
+langchain-community
+langchain-pinecone
+pinecone-client
+
+openai  # required by langchain-openai
