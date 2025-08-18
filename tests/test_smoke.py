@@ -1,6 +1,13 @@
 from pinecone import Pinecone
 import os
 
+from dotenv import load_dotenv
+import os
+
+# load .env file
+load_dotenv()
+
+
 pc = Pinecone(api_key=os.environ["PINECONE_API_KEY"])
 index = pc.Index(os.environ["PINECONE_INDEX"])
 stats = index.describe_index_stats()

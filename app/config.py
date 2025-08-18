@@ -2,6 +2,8 @@ from pathlib import Path
 from pydantic import BaseModel
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 class Settings(BaseModel):

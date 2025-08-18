@@ -9,6 +9,6 @@ langchain
 langchain-openai
 langchain-community
 langchain-pinecone
-pinecone-client
+pinecone>=5.0.0   # ✅ new SDK (replaces pinecone-client)
 
 openai  # required by langchain-openai
