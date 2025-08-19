@@ -1,14 +1,16 @@
-fastapi
-uvicorn
-pydantic
-python-dotenv
-pandas
-tqdm
+flask==3.0.3
+pydantic==2.11.7
+pydantic-settings==2.10.1
+python-dotenv==1.1.1
+pandas==2.3.1
+tiktoken==0.11.0
 
-langchain
-langchain-openai
-langchain-community
-langchain-pinecone
-pinecone>=5.0.0   # ✅ new SDK (replaces pinecone-client)
+openai==1.99.9
+langchain==0.3.27
+langchain-core==0.3.74
+langchain-openai==0.3.30
+langchain-community==0.3.27
+langchain-text-splitters==0.3.9
 
-openai  # required by langchain-openai
+pinecone==7.3.0
+pinecone-client==6.0.0

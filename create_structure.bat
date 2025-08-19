@@ -1,22 +1,27 @@
 @echo off
-cd HOMESHIELD_AI
-mkdir app app\api tests
+setlocal
+
+set "ROOT=%cd%"
+if /i not "%~n0"=="structure" (
+  echo Run inside the project root (HOMESHIELD_AI)
+)
+
+rem Directories
+mkdir app 2>nul
+mkdir app\services 2>nul
+mkdir app\api 2>nul
+
+rem Files
 type nul > app\__init__.py
 type nul > app\config.py
-type nul > app\schemas.py
-type nul > app\embeddings.py
 type nul > app\vectorstore.py
-type nul > app\ingestion.py
-type nul > app\retrieval.py
-type nul > app\prompts.py
-type nul > app\chains.py
-type nul > app\rules.py
-type nul > app\service.py
-type nul > app\api\__init__.py
+type nul > app\schemas.py
+type nul > app\services\customers.py
+type nul > app\services\ingestion.py
+type nul > app\services\rag.py
+type nul > app\services\claims.py
 type nul > app\api\main.py
-type nul > tests\test_smoke.py
-type nul > .env
-type nul > requirements.txt
-type nul > README.md
-dir /s /b
-pause
+type nul > run.py
+
+echo Project structure created.
+endlocal
