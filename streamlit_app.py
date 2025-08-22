@@ -1,3 +1,4 @@
+# streamlit_app.py
 import os
 import streamlit as st
 from dotenv import load_dotenv
@@ -7,45 +8,36 @@ from app.services.rag import retrieve_chunks, answer_with_context, format_citati
 from app.services.claims import evaluate_claim
 from app.services.router import classify_message, small_talk_reply
 
-# optional – only if you added upgrades.py
+# Optional: if you haven't added upgrades.py yet, this stub keeps the app running
 try:
     from app.services.upgrades import suggest_alternative_plans
 except Exception:
-    def suggest_alternative_plans(**kwargs):  # fallback stub
+    def suggest_alternative_plans(**kwargs):
         return []
 
-# ----------------------- Setup -----------------------
+# ------------------- Setup -------------------
 load_dotenv()
-st.set_page_config(page_title="HomeShield – Coverage Chat", page_icon="🛡️", layout="wide")
-st.title("🛡️ HomeShield – Coverage Chat")
+st.set_page_config(page_title="HomeShield – Chat", page_icon="🛡️", layout="centered")
 
-def normalize_reason(text: str) -> str:
-    t = (text or "").strip()
-    return t[:1].upper() + t[1:] if t else t
+# Minimal CSS to tighten spacing & center content like ChatGPT
+st.markdown(
+    """
+    <style>
+      .block-container { max-width: 820px; padding-top: 1.5rem; }
+      .stChatMessage { padding-bottom: 0.25rem; }
+      .topbar { display:flex; gap:0.5rem; align-items:center; }
+      .chips { color:#555; font-size:0.9rem; margin-top:-0.25rem; }
+      .chip { background:#f5f5f7; border-radius:999px; padding:2px 10px; margin-right:6px; display:inline-block; }
+      .msg-meta { font-size:0.85rem; color:#666; margin-top:0.35rem; }
+      .cite-box { border:1px solid #eee; background:#fafafa; padding:8px 10px; border-radius:8px; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
-# ---------------- Sidebar: typed Customer ID ----------
-default_id = os.environ.get("HOMESHIELD_CUSTOMER_ID", "CUST-001")
-customer_id = st.sidebar.text_input("Customer ID", value=default_id, help="Type the customer ID (e.g., C00001).")
-st.sidebar.caption("The chat will use this ID for all actions.")
+st.markdown("## 🛡️ HomeShield")
 
-# ---------------- Load customer & show chips ----------
-cust = None
-try:
-    if customer_id.strip():
-        cust = get_customer(customer_id.strip())
-except Exception as e:
-    st.warning(f"Customer not found or CSV error: {e}")
-
-def customer_badge_row(cust):
-    if not cust: return
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Plan", str(cust.get("plan","")))
-    c2.metric("State", str(cust.get("state","")))
-    c3.metric("Effective Year", str(int(cust.get("effective_year", 0))))
-
-customer_badge_row(cust)
-
-# ---------------- Conversation memory -----------------
+# ------------------- State -------------------
 if "messages" not in st.session_state:
     st.session_state.messages = [
         {"role": "assistant", "content": "Hi! I’m HomeShield. Ask about your coverage — e.g., “Does my policy cover AC repair?”"}
@@ -55,20 +47,48 @@ if "last_issue" not in st.session_state:
 if "last_claim" not in st.session_state:
     st.session_state.last_claim = None
 
-st.sidebar.markdown("---")
-if st.sidebar.button("Reset conversation"):
-    st.session_state.messages = [
-        {"role": "assistant", "content": "Hi! I’m HomeShield. Ask about your coverage — e.g., “Does my policy cover AC repair?”"}
-    ]
-    st.session_state.last_issue = ""
-    st.session_state.last_claim = None
-    st.rerun()
+# ------------------- Header (ChatGPT-like top bar) -------------------
+default_id = os.environ.get("HOMESHIELD_CUSTOMER_ID", "C00001")
+c1, c2 = st.columns([4, 1])
+with c1:
+    customer_id = st.text_input("Customer ID", value=default_id, label_visibility="collapsed", placeholder="Enter Customer ID (e.g., C00001)")
+with c2:
+    if st.button("Reset"):
+        st.session_state.messages = [
+            {"role": "assistant", "content": "Hi! I’m HomeShield. Ask about your coverage — e.g., “Does my policy cover AC repair?”"}
+        ]
+        st.session_state.last_issue = ""
+        st.session_state.last_claim = None
+        st.rerun()
 
-# ---------------- Render history ----------------------
-for m in st.session_state.messages:
+# Load customer and show small chips row (like ChatGPT’s model pill)
+cust = None
+cust_error = None
+try:
+    if customer_id.strip():
+        cust = get_customer(customer_id.strip())
+except Exception as e:
+    cust_error = str(e)
+
+if cust_error:
+    st.warning(f"Customer error: {cust_error}")
+elif cust:
+    st.markdown(
+        f"""<div class="chips">
+             <span class="chip">Plan: <b>{cust.get('plan','')}</b></span>
+             <span class="chip">State: <b>{cust.get('state','')}</b></span>
+             <span class="chip">Year: <b>{int(cust.get('effective_year',0))}</b></span>
+           </div>""",
+        unsafe_allow_html=True,
+    )
+
+st.divider()
+
+# ------------------- Chat history -------------------
+def render_message(m):
     with st.chat_message(m["role"]):
         st.markdown(m["content"])
-        meta = (m.get("meta") or {})
+        meta = m.get("meta") or {}
         cites = meta.get("citations") or []
         if cites:
             with st.expander("Citations"):
@@ -76,30 +96,37 @@ for m in st.session_state.messages:
                     st.markdown(f"**{i}.** `{c['source']}` p.{c['page']}")
                     st.code(c["text"])
 
-# ---------------- Chat input --------------------------
-prompt = st.chat_input("Type your message and press Enter…")
+for msg in st.session_state.messages:
+    render_message(msg)
+
+# ------------------- Chat input (bottom, like ChatGPT) -------------------
+prompt = st.chat_input("Message HomeShield...")
+
+def _normalize_reason(text: str) -> str:
+    t = (text or "").strip()
+    return (t[:1].upper() + t[1:]) if t else t
 
 if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
-        st.markdown(prompt)
+    render_message({"role": "user", "content": prompt})
 
     with st.chat_message("assistant"):
         if not cust:
-            msg = "I couldn’t find that Customer ID. Please enter a valid ID in the sidebar and try again."
-            st.error(msg)
-            st.session_state.messages.append({"role": "assistant", "content": msg})
+            reply = "I couldn’t find that Customer ID. Please enter a valid ID and try again."
+            st.error(reply)
+            st.session_state.messages.append({"role": "assistant", "content": reply})
         else:
             try:
+                # LLM intent router steers the conversation (no hard-coded rules)
                 route = classify_message(prompt, last_issue=st.session_state.last_issue)
-                intent = route["intent"]
-                issue = (route.get("issue") or "").strip()
+                intent = (route.get("intent") or "other").lower()
+                issue  = (route.get("issue") or "").strip()
 
                 if intent == "small_talk":
                     reply = small_talk_reply(prompt)
                     st.markdown(reply)
                     st.session_state.messages.append({"role": "assistant", "content": reply})
-                    # do NOT change last_issue
+
                 elif intent == "upgrades":
                     topic = issue or st.session_state.last_issue or prompt
                     suggestions = suggest_alternative_plans(
@@ -110,14 +137,14 @@ if prompt:
                         limit=3,
                     )
                     if not suggestions:
-                        msg = "I couldn’t find other plan entries for your state/year that mention this item."
+                        msg = "I couldn’t find other plans in your state/year that mention this item."
                         st.warning(msg)
                         st.session_state.messages.append({"role": "assistant", "content": msg})
                     else:
                         lines = []
                         for s in suggestions:
                             badge = "✅ Would be Covered" if s["covered"] else "❌ Still Not Covered"
-                            reason = normalize_reason(s["reason"])
+                            reason = _normalize_reason(s["reason"])
                             lines.append(f"- **{badge} — {s['plan']}** — {reason}")
                         summary = "Here’s what I found for other plans:\n\n" + "\n".join(lines)
                         st.markdown(summary)
@@ -128,14 +155,11 @@ if prompt:
                                     for i, c in enumerate(s["citations"], 1):
                                         st.markdown(f"**{i}.** `{c['source']}` p.{c['page']}")
                                         st.code(c["text"])
-
-                    # keep last_issue as topic if extracted
                     if issue:
                         st.session_state.last_issue = issue
 
-                elif intent in ("coverage", "limits", "other"):
-                    # Treat coverage/limits/general questions as RAG QA;
-                    # update last_issue when we have a concrete one.
+                else:
+                    # coverage / limits / other -> do RAG QA
                     topic = issue or prompt
                     docs = retrieve_chunks(topic, cust["plan"], cust["state"], cust["effective_year"])
                     if not docs:
@@ -155,39 +179,27 @@ if prompt:
                 st.error(err)
                 st.session_state.messages.append({"role": "assistant", "content": err})
 
-# -------------- Claim Evaluation panel --------------
-st.divider()
-st.subheader("Evaluate the last user issue as a claim")
+# ------------------- One small “ChatGPT-like” action: evaluate last issue -------------------
+with st.container():
+    if cust and st.session_state.last_issue:
+        if st.button("⚖️ Evaluate last issue as a claim"):
+            try:
+                res = evaluate_claim(st.session_state.last_issue, cust["plan"], cust["state"], cust["effective_year"])
+                badge = "✅ Covered" if res["covered"] else "❌ Not Covered"
+                reason = _normalize_reason(res["reason"])
+                content = f"**{badge}** — {reason}"
 
-if not cust:
-    st.info("Enter a valid Customer ID in the sidebar to enable claim evaluation.")
-else:
-    default_issue = st.session_state.last_issue or "AC compressor failure"
-    issue_text = st.text_area("Issue description", value=default_issue, help="You can edit this before evaluation.")
-
-    if st.button("Evaluate Claim", type="primary", use_container_width=True):
-        try:
-            result = evaluate_claim(issue_text, cust["plan"], cust["state"], cust["effective_year"])
-            badge = "✅ Covered" if result["covered"] else "❌ Not Covered"
-            reason = normalize_reason(result["reason"])
-            content = f"**{badge}** — {reason}"
-
-            (st.success if result["covered"] else st.error)(content)
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": content,
-                "meta": {"citations": result.get("citations", [])}
-            })
-
-            if result.get("citations"):
-                with st.expander("Citations"):
-                    for i, c in enumerate(result["citations"], 1):
-                        st.markdown(f"**{i}.** `{c['source']}` p.{c['page']}")
-                        st.code(c["text"])
-
-            st.session_state.last_claim = {"issue": issue_text, "result": result, "cust": cust}
-            st.session_state.last_issue = issue_text
-        except Exception as e:
-            st.error(f"Claim evaluation failed: {e}")
-
-st.caption("This assistant routes your messages with an LLM intent classifier")
+                (st.success if res["covered"] else st.error)(content)
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": content,
+                    "meta": {"citations": res.get("citations", [])}
+                })
+                if res.get("citations"):
+                    with st.expander("Citations"):
+                        for i, c in enumerate(res["citations"], 1):
+                            st.markdown(f"**{i}.** `{c['source']}` p.{c['page']}")
+                            st.code(c["text"])
+                st.session_state.last_claim = {"issue": st.session_state.last_issue, "result": res, "cust": cust}
+            except Exception as e:
+                st.error(f"Claim evaluation failed: {e}")
