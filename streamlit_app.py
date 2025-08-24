@@ -135,7 +135,7 @@ with st.container():
             st.rerun()
 
 # ---------------------------- Customer context --------------------------------
-cid = st.text_input("Customer ID", value=st.session_state.get("customer_id", ""), placeholder="e.g., C00182")
+cid = st.text_input("Customer ID", value=st.session_state.get("customer_id", ""), placeholder="e.g., CXXXXX")
 cust = None
 if cid.strip():
     cust = _load_customer(cid)
