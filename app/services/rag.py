@@ -1,3 +1,5 @@
+# app/services/rag.py
+import os
 from ..vectorstore import vectorstore, chat_client
 
 SYSTEM = (
@@ -5,16 +7,26 @@ SYSTEM = (
   "Cite specific clauses. If not covered, say 'Not covered' and why."
 )
 
-def retrieve_chunks(query: str, plan: str, state: str, year: int, k=8):
+def retrieve_chunks(query: str, plan: str, state: str, year: int | None, k=8, policy_source: str | None = None):
     vs = vectorstore()
-    meta_filter = {
-        "$and": [
-            {"plan": {"$eq": plan}},
-            {"state": {"$eq": state}},
-            {"effective_year": {"$in": [int(year), float(year)]}},
-        ]
-    }
-    return vs.max_marginal_relevance_search(query, k=k, fetch_k=24, lambda_mult=0.5, filter=meta_filter)
+
+    clauses = [
+        {"plan": {"$eq": plan}},
+        {"state": {"$eq": state}},
+    ]
+    if year is not None:
+        clauses.append({"effective_year": {"$in": [int(year), float(year)]}})
+
+    # NEW: if you pass a policy filename (e.g., from customers.csv 'policy_doc'),
+    # filter by your existing metadata['source'] which already stores the basename.
+    if policy_source:
+        clauses.append({"source": {"$eq": os.path.basename(str(policy_source))}})
+
+    meta_filter = {"$and": clauses}
+
+    return vs.max_marginal_relevance_search(
+        query, k=k, fetch_k=24, lambda_mult=0.5, filter=meta_filter
+    )
 
 def format_citations(docs):
     return [{
